@@ -1,0 +1,23 @@
+@import "vars", "mixins", "header";
+
+@font-face {
+  font-family: "NAMU";
+  src: url("/fonts/NAMU-1930.ttf");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.center {
+  @include container;
+}
+
+.body {
+  @extend %siteFontMain;
+  overflow: hidden;
+  color: $colorSite;
+}

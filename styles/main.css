@@ -1,0 +1,25 @@
+.body {
+  font-family: "Manrope", sans-serif;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "NAMU";
+  src: url("/fonts/NAMU-1930.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.center {
+  padding-left: calc(50% - 900px);
+  padding-right: calc(50% - 900px);
+}
+
+.body {
+  overflow: hidden;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

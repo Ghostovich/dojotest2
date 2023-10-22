@@ -3,6 +3,348 @@
   font-style: normal;
 }
 
+.homepage__afisha__event__heading, .homepage__afisha__month, .homepage__afisha__heading, .homepage__title__place, .homepage__title__name {
+  font-family: "NAMU";
+}
+
+.homepage__afisha__event__head, .homepage__afisha__event, .homepage__afisha__filter, .homepage__afisha__filters__heading__reset, .homepage__afisha__filters__heading, .homepage__afisha__months, .homepage__news__gosuslugi, .homepage__news__titles__link, .homepage__news__titles, .homepage__news, .homepage__title__name, .visuallyImpairedVersion, .header__nav__list__link, .header__nav__list, .header__search, .headerLogo, .header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.headerLogo {
+  gap: 40px;
+}
+.header__logo {
+  transition: 0.3s;
+}
+.header__logo:hover {
+  opacity: 0.7;
+}
+.header__search {
+  gap: 10px;
+  border: 1px solid var(--base-light-grey, #e6e6e6);
+  padding: 28px 30px;
+}
+.header__search__text {
+  width: 220px;
+  outline: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  border: 0;
+}
+.header__nav__list {
+  list-style-type: none;
+  gap: 40px;
+  font-size: 16px;
+  line-height: 110%;
+}
+.header__nav__list__a {
+  color: black;
+  transition: 0.3s;
+}
+.header__nav__list__a:hover {
+  color: #C352D6;
+}
+.header__nav__list__a:hover path {
+  fill: #C352D6;
+}
+.header__nav__list__link {
+  gap: 5px;
+  justify-content: flex-end;
+}
+
+.visuallyImpairedVersion {
+  gap: 20px;
+  font-size: 12px;
+  font-weight: 600;
+}
+.visuallyImpairedVersion__text {
+  width: 141px;
+  height: 26px;
+  text-align: right;
+  font-size: 12px;
+}
+.visuallyImpairedVersion svg {
+  transition: 0.3s;
+}
+.visuallyImpairedVersion svg:hover {
+  opacity: 0.7;
+}
+
+.homepage__title__name {
+  font-size: 255px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+  text-transform: uppercase;
+  width: 1800px;
+  justify-content: flex-end;
+  position: relative;
+}
+.homepage__title__name__1 {
+  margin-right: 24px;
+}
+.homepage__title__name__2 {
+  border-radius: 208px 208px 0px 0px;
+  border: 1px solid black;
+  width: 357px;
+  height: 584px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 24px;
+}
+.homepage__title__name__3 {
+  border-radius: 211px 211px 0px 0px;
+  border: 1px solid black;
+  width: 422px;
+  height: 584px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  z-index: 1;
+}
+.homepage__title__place {
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 130%;
+  width: 975px;
+  position: absolute;
+  top: 570px;
+}
+.homepage__news {
+  flex-direction: column;
+}
+.homepage__news__titles {
+  font-size: 12px;
+  font-weight: 600;
+  width: 1800px;
+  justify-content: space-between;
+  padding-top: 61px;
+  padding-bottom: 30px;
+}
+.homepage__news__titles__link {
+  transition: 0.3s;
+  font-size: 14px;
+  font-weight: 500;
+  align-items: baseline;
+  gap: 6px;
+}
+.homepage__news__titles__link:hover {
+  color: #C352D6;
+}
+.homepage__news__titles__link:hover path {
+  fill: #C352D6;
+}
+.homepage__news__articles {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding-bottom: 20px;
+}
+.homepage__news__article {
+  border: 1px solid var(--base-light-grey, #e6e6e6);
+  height: 165px;
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.homepage__news__article__date {
+  color: rgba(47, 47, 47, 0.5);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 110%;
+  padding-bottom: 20px;
+}
+.homepage__news__article__news {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  transition: 0.3s;
+}
+.homepage__news__article__news:hover {
+  color: #C352D6;
+}
+.homepage__news__gosuslugi {
+  justify-content: space-between;
+  width: 1800px;
+  height: 80px;
+  padding-left: 24px;
+  background: rgba(22, 102, 176, 0.05);
+}
+.homepage__news__gosuslugi__logo {
+  transition: 0.3s;
+}
+.homepage__news__gosuslugi__logo:hover path {
+  opacity: 0.7;
+}
+.homepage__news__gosuslugi__text {
+  color: var(--base-grey, #979797);
+  font-size: 10px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.homepage__news__gosuslugi__text__span {
+  color: var(--base-black, #2f2f2f);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 130%;
+}
+.homepage__news__gosuslugi__button {
+  display: inline-flex;
+  height: 80px;
+  padding: 29px 80px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background: #1666b0;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  color: white;
+  border: none;
+  transition: 0.3s;
+}
+.homepage__news__gosuslugi__button:hover {
+  opacity: 0.7;
+}
+.homepage__afisha {
+  padding-top: 120px;
+  padding-bottom: 160px;
+}
+.homepage__afisha__heading {
+  font-size: 60px;
+  line-height: 130%;
+  text-transform: uppercase;
+  padding-bottom: 80px;
+}
+.homepage__afisha__months {
+  justify-content: space-between;
+}
+.homepage__afisha__month {
+  color: var(--base-grey, #979797);
+  font-size: 34px;
+  line-height: 120%;
+  transition: 0.3s;
+  background: none;
+  border: none;
+}
+.homepage__afisha__month:hover {
+  color: #C352D6;
+}
+.homepage__afisha__month:active::after {
+  color: black;
+  content: url("data:image/svg+xml;charset=UTF-8,%3csvg width='355' height='9' viewBox='0 0 355 9' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M4.49997 -5.5234e-08L5.13178 0.622718L1.69766 4.05683L1.69766 4.94317L5.13177 8.37728L4.49997 9L-2.774e-05 4.5L4.49997 -5.5234e-08Z' fill='%232F2F2F'/%3e%3crect x='1' y='4' width='354' height='1' fill='%232F2F2F'/%3e%3c/svg%3e");
+}
+.homepage__afisha__filters__heading {
+  justify-content: space-between;
+  padding-top: 80px;
+  padding-bottom: 30px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.homepage__afisha__filters__heading__reset {
+  gap: 6px;
+  transition: 0.3s;
+}
+.homepage__afisha__filters__heading__reset:hover .homepage__afisha__filters__heading__span {
+  color: black;
+}
+.homepage__afisha__filters__heading__reset:hover path {
+  fill: black;
+}
+.homepage__afisha__filters__heading__span {
+  color: var(--base-grey, #979797);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 110%;
+  text-transform: none;
+}
+.homepage__afisha__filter__item {
+  display: flex;
+  padding: 38px 40px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1 0 0;
+  border: 1px solid var(--base-light-grey, #e6e6e6);
+  transition: 0.3s;
+  margin-bottom: 60px;
+}
+.homepage__afisha__filter__item:hover {
+  color: #C352D6;
+  border-color: #C352D6;
+}
+.homepage__afisha__events {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.homepage__afisha__event {
+  flex-direction: column;
+  border: 1px solid var(--base-light-grey, #e6e6e6);
+  text-align: left;
+  align-items: flex-start;
+  padding: 30px;
+}
+.homepage__afisha__event__head {
+  justify-content: space-between;
+  color: var(--base-black, #2f2f2f);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 130%;
+  padding-bottom: 30px;
+}
+.homepage__afisha__event__head__place {
+  color: var(--base-grey, #979797);
+}
+.homepage__afisha__event__heading {
+  font-size: 34px;
+  line-height: 120%;
+  text-align: left;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.homepage__afisha__event__discription {
+  color: #C352D6;
+  font-size: 16px;
+  line-height: 130%;
+  text-align: left;
+  padding-bottom: 40px;
+}
+.homepage__afisha__event__buy {
+  border-top: 1px solid var(--base-light-grey, #e6e6e6);
+  display: flex;
+  width: 599px;
+  padding: 40px 30px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle__1 {
+  width: 327.552px;
+  height: 327.552px;
+  border-radius: 327.552px;
+  background: var(--accent-orange, #ff813c);
+  position: absolute;
+  right: calc(50% - 900px);
+  top: 373px;
+  z-index: 2;
+}
+
 @font-face {
   font-family: "NAMU";
   src: url("/fonts/NAMU-1930.ttf");
@@ -21,5 +363,9 @@
 
 .body {
   overflow: hidden;
+  color: black;
+}
+
+a {
   color: black;
 }/*# sourceMappingURL=main.css.map */

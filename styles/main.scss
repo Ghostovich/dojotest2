@@ -1,4 +1,4 @@
-@import "vars", "mixins", "header";
+@import "vars", "mixins", "header", "homepage";
 
 @font-face {
   font-family: "NAMU";
@@ -19,5 +19,9 @@
 .body {
   @extend %siteFontMain;
   overflow: hidden;
+  color: $colorSite;
+}
+
+a{
   color: $colorSite;
 }

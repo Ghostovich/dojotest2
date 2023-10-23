@@ -121,7 +121,7 @@ const events = {
     <p class="homepage__afisha__event__head__date">{{item.date}}</p>
     <p class="homepage__afisha__event__head__place">{{item.place}}</p>
   </div>
-  <div v-html="item.img"></div>
+  <div class="homepage__afisha__event__img" v-html="item.img"></div>
   <div class="homepage__afisha__event__heading">{{item.h3}}</div>
   <div class="homepage__afisha__event__discription">{{item.p}}</div>
   <div class="homepage__afisha__event__buy">

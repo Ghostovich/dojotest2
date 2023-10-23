@@ -229,18 +229,13 @@
     &__events {
       display: grid;
       grid-template-columns: 1fr 1fr 1fr;
+      width: 1800px;
     }
     &__event {
-      @extend %siteFlex;
+      display: flex;
       flex-direction: column;
       border: 1px solid var(--base-light-grey, #e6e6e6);
-      text-align: left;
-      align-items: flex-start;
-      // padding-left: 30px;
-      // padding-top: 30px;
-      padding: 30px;
-      // padding-right: calc(50% - $widthSite / 6);
-
+      padding-top: 30px;
       &__head {
         @extend %siteFlex;
         justify-content: space-between;
@@ -249,9 +244,15 @@
         font-weight: 500;
         line-height: 130%;
         padding-bottom: 30px;
+        padding-left: 30px;
+        padding-right: 30px;
         &__place {
           color: var(--base-grey, #979797);
         }
+      }
+      &__img {
+        display: flex;
+        justify-content: center;
       }
       &__heading {
         @extend %siteFontOther;
@@ -260,6 +261,7 @@
         text-align: left;
         padding-top: 40px;
         padding-bottom: 30px;
+        padding-left: 30px;
       }
       &__discription {
         color: $colorHover;
@@ -267,6 +269,7 @@
         line-height: 130%;
         text-align: left;
         padding-bottom: 40px;
+        padding-left: 30px;
       }
       &__buy {
         border-top: 1px solid var(--base-light-grey, #e6e6e6);

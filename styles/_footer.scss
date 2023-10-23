@@ -81,6 +81,39 @@
     &__logos {
       @extend %siteFlex;
       flex-direction: column;
+      gap: 60px;
+      align-items:  flex-start;
+
+    }
+    &__social {
+      @extend %siteFlex;
+      &__img {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 70px;
+        height: 70px;
+        border: 1px solid var(--base-light-grey, #e6e6e6);
+      }
+    }
+    &__low__visible{
+    @extend %siteFlex;
+    color: $colorSite;
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    gap:20px;
+    & svg{
+      transition: 0.3s;
+      &:hover{
+        opacity:0.7;
+        cursor: pointer;
+      }
+    }
+      &__block{
+        @extend %siteFlex;
+        gap: 20px;
+      }
     }
     &__afisha {
       font-size: 14px;
@@ -163,10 +196,19 @@
     @extend %siteFlex;
     justify-content: space-between;
     padding: 64px 0px;
+    &__img {
+      transition: 0.3s;
+      &:hover {
+        cursor: pointer;
+        opacity: 0.7;
+      }
+    }
     &__border {
       width: 100%;
       height: 1px;
       background: #e6e6e6;
+      left: 0;
+      position: absolute;
     }
   }
   &__production {
